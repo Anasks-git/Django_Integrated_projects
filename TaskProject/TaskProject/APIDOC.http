@@ -1,0 +1,49 @@
+#API Call for factorial
+POST  http://127.0.0.1:8000/factorial/
+Content-Type: application/json
+
+{
+    "num1" : 5
+}
+
+#API Call for simple-intrest
+###
+POST  http://127.0.0.1:8000/simple-intrest/
+Content-Type: application/json
+
+{
+    "p" : 10000,
+    "t" : 2,
+    "r" : 5
+}
+
+#API call for discountCalculator
+###
+POST  http://127.0.0.1:8000/discount/
+Content-Type: application/json
+
+{
+    "price" : 2000,
+    "discount_percent" : 10
+}
+
+#API Call for profit Calculator
+###
+POST  http://127.0.0.1:8000/profit/
+Content-Type: application/json
+
+{
+    "cost" : 500,
+    "selling" : 650
+}
+
+#API call for net salary
+###
+POST  http://127.0.0.1:8000/salary/
+Content-Type: application/json
+
+{
+    "salary" : 30000,
+    "bonus" : 5000,
+    "deduction" : 2000
+}

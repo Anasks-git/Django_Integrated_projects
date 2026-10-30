@@ -1,0 +1,76 @@
+#   Api cal for adding two numbers
+POST http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+    "num1" : 15,
+    "num2" : 10
+}
+
+#Api call for substracting two  numbers
+###
+POST http://127.0.0.1:8000/substraction/
+Content-Type: application/json
+
+{
+    "num1" : 150,
+    "num2" : 100
+}
+
+###
+POST http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1" : 10,
+    "num2" : 5
+}
+
+###
+POST http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+    "num1" : 10,
+    "num2" : 2
+}
+
+###
+POST http://127.0.0.1:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1" : 100,
+    "num2" : 50
+}
+
+#API call for bmi 
+###
+POST http://127.0.0.1:8000/bmi/
+Content-Type: application/json
+
+{
+    "height" : 160,
+    "weight" : 61
+}
+
+#API call for age view
+###
+POST http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "Birth_year" : 2000,
+    "Current_year" : 2026
+}
+
+#API call for percentage
+###
+POST http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "mark" : 450,
+    "total_mark" : 500
+}
+
